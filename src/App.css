@@ -1,25 +1,35 @@
+/* Styles pour le conteneur principal de l'application */
 .App {
   text-align: center;
-  background-size: cover;
-  background-position: center;
-}
-#welcome{
-  color: antiquewhite;
-}
-#cart{
-  background-color: gainsboro;
+  background-size: cover; 
+  background-position: center; 
 }
 
-.footer{
-  background-color: rgb(106, 106, 106);
-  color: antiquewhite;
+/* Styles pour l'élément avec l'id "welcome" */
+#welcome {
+  color: antiquewhite; 
 }
-.btn{
-  background-color: rgb(101, 101, 101);
-  color:black;
-  border-color:rgb(101, 101, 101);
+
+/* Styles pour la carte avec l'id "cart" */
+#cart {
+  background-color: gainsboro; 
 }
-.btn:hover{
-  background-color: blanchedalmond;
-  color: black;
+
+/* Styles pour la classe "footer" */
+.footer {
+  background-color: rgb(106, 106, 106); 
+  color: antiquewhite; 
+}
+
+/* Styles pour les boutons avec la classe "btn" */
+.btn {
+  background-color: rgb(101, 101, 101); 
+  color: black; 
+  border-color: rgb(101, 101, 101); 
+}
+
+/* Styles pour les boutons au survol (hover) */
+.btn:hover {
+  background-color: blanchedalmond; 
+  color: black; 
 }
